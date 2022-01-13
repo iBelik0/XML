@@ -1,1 +1,818 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<office:document office:mimetype="application/vnd.oasis.opendocument.text" office:version="1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:rpt="http://openoffice.org/2005/report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:ooo="http://openoffice.org/2004/office" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0">
+
+
+-<office:meta>
+
+<meta:document-statistic meta:non-whitespace-character-count="1673" meta:character-count="1928" meta:word-count="85" meta:paragraph-count="43" meta:page-count="2" meta:object-count="0" meta:image-count="0" meta:table-count="0"/>
+
+<meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator>
+
+</office:meta>
+
+
+-<office:settings>
+
+
+-<config:config-item-set config:name="ooo:view-settings">
+
+<config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+
+<config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+
+<config:config-item config:name="ViewAreaWidth" config:type="long">0</config:config-item>
+
+<config:config-item config:name="ViewAreaHeight" config:type="long">0</config:config-item>
+
+<config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+
+</config:config-item-set>
+
+
+-<config:config-item-set config:name="ooo:configuration-settings">
+
+<config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintFaxName" config:type="string"/>
+
+<config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+
+<config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+
+<config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="RsidRoot" config:type="int">1385118</config:config-item>
+
+<config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+
+<config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+
+<config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrinterName" config:type="string"/>
+
+<config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+
+<config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+
+<config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+
+<config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+
+<config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="Rsid" config:type="int">1385118</config:config-item>
+
+<config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+
+<config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+
+<config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+
+<config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+
+</config:config-item-set>
+
+</office:settings>
+
+
+-<office:scripts>
+
+
+-<office:script script:language="ooo:Basic">
+
+<ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+
+</office:script>
+
+</office:scripts>
+
+
+-<office:font-face-decls>
+
+<style:font-face style:name="Noto Sans Devanagari1" style:font-family-generic="swiss" svg:font-family="'Noto Sans Devanagari'"/>
+
+<style:font-face style:name="Liberation Mono" style:font-family-generic="modern" svg:font-family="'Liberation Mono'" style:font-pitch="fixed"/>
+
+<style:font-face style:name="Liberation Serif" style:font-family-generic="roman" svg:font-family="'Liberation Serif'" style:font-pitch="variable"/>
+
+<style:font-face style:name="Liberation Sans" style:font-family-generic="swiss" svg:font-family="'Liberation Sans'" style:font-pitch="variable"/>
+
+<style:font-face style:name="DejaVu Sans" style:font-family-generic="system" svg:font-family="'DejaVu Sans'" style:font-pitch="variable"/>
+
+<style:font-face style:name="Noto Sans Devanagari" style:font-family-generic="system" svg:font-family="'Noto Sans Devanagari'" style:font-pitch="variable"/>
+
+</office:font-face-decls>
+
+
+-<office:styles>
+
+
+-<style:default-style style:family="graphic">
+
+<style:graphic-properties style:flow-with-text="false" draw:end-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:start-line-spacing-horizontal="0.1114in" draw:shadow-offset-y="0.1181in" draw:shadow-offset-x="0.1181in" fo:wrap-option="no-wrap" draw:fill-color="#729fcf" svg:stroke-color="#3465a4"/>
+
+
+-<style:paragraph-properties style:font-independent-line-spacing="false" style:line-break="strict" style:text-autospace="ideograph-alpha">
+
+<style:tab-stops/>
+
+</style:paragraph-properties>
+
+<style:text-properties fo:language="en" style:country-complex="IN" style:language-complex="hi" style:font-size-complex="12pt" style:font-name-complex="Noto Sans Devanagari" style:country-asian="CN" style:language-asian="zh" style:font-size-asian="10.5pt" style:font-name-asian="DejaVu Sans" style:letter-kerning="true" fo:country="US" fo:font-size="12pt" style:font-name="Liberation Serif" style:use-window-font-color="true"/>
+
+</style:default-style>
+
+
+-<style:default-style style:family="paragraph">
+
+<style:paragraph-properties style:line-break="strict" style:text-autospace="ideograph-alpha" style:writing-mode="page" style:tab-stop-distance="0.4925in" style:punctuation-wrap="hanging" fo:hyphenation-ladder-count="no-limit"/>
+
+<style:text-properties fo:language="en" style:country-complex="IN" style:language-complex="hi" style:font-size-complex="12pt" style:font-name-complex="Noto Sans Devanagari" style:country-asian="CN" style:language-asian="zh" style:font-size-asian="10.5pt" style:font-name-asian="DejaVu Sans" fo:country="US" fo:font-size="12pt" style:font-name="Liberation Serif" style:use-window-font-color="true" fo:hyphenation-push-char-count="2" fo:hyphenation-remain-char-count="2" fo:hyphenate="false"/>
+
+</style:default-style>
+
+
+-<style:default-style style:family="table">
+
+<style:table-properties table:border-model="collapsing"/>
+
+</style:default-style>
+
+
+-<style:default-style style:family="table-row">
+
+<style:table-row-properties fo:keep-together="auto"/>
+
+</style:default-style>
+
+<style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+
+
+-<style:style style:name="Heading" style:family="paragraph" style:class="text" style:next-style-name="Text_20_body" style:parent-style-name="Standard">
+
+<style:paragraph-properties fo:keep-with-next="always" loext:contextual-spacing="false" fo:margin-bottom="0.0835in" fo:margin-top="0.1665in"/>
+
+<style:text-properties style:font-family-generic="swiss" fo:font-family="'Liberation Sans'" style:font-pitch="variable" style:font-size-complex="14pt" style:font-name-complex="Noto Sans Devanagari" style:font-size-asian="14pt" style:font-name-asian="DejaVu Sans" fo:font-size="14pt" style:font-name="Liberation Sans" style:font-pitch-complex="variable" style:font-family-generic-complex="system" style:font-family-complex="'Noto Sans Devanagari'" style:font-pitch-asian="variable" style:font-family-generic-asian="system" style:font-family-asian="'DejaVu Sans'"/>
+
+</style:style>
+
+
+-<style:style style:name="Text_20_body" style:family="paragraph" style:class="text" style:parent-style-name="Standard" style:display-name="Text body">
+
+<style:paragraph-properties loext:contextual-spacing="false" fo:margin-bottom="0.0972in" fo:margin-top="0in" fo:line-height="115%"/>
+
+</style:style>
+
+
+-<style:style style:name="List" style:family="paragraph" style:class="list" style:parent-style-name="Text_20_body">
+
+<style:text-properties style:font-name-complex="Noto Sans Devanagari1" style:font-size-asian="12pt" style:font-family-generic-complex="swiss" style:font-family-complex="'Noto Sans Devanagari'"/>
+
+</style:style>
+
+
+-<style:style style:name="Caption" style:family="paragraph" style:class="extra" style:parent-style-name="Standard">
+
+<style:paragraph-properties loext:contextual-spacing="false" fo:margin-bottom="0.0835in" fo:margin-top="0.0835in" text:line-number="0" text:number-lines="false"/>
+
+<style:text-properties style:font-size-complex="12pt" style:font-name-complex="Noto Sans Devanagari1" style:font-size-asian="12pt" fo:font-size="12pt" style:font-family-generic-complex="swiss" style:font-family-complex="'Noto Sans Devanagari'" style:font-style-complex="italic" style:font-style-asian="italic" fo:font-style="italic"/>
+
+</style:style>
+
+
+-<style:style style:name="Index" style:family="paragraph" style:class="index" style:parent-style-name="Standard">
+
+<style:paragraph-properties text:line-number="0" text:number-lines="false"/>
+
+<style:text-properties style:font-name-complex="Noto Sans Devanagari1" style:font-size-asian="12pt" style:font-family-generic-complex="swiss" style:font-family-complex="'Noto Sans Devanagari'"/>
+
+</style:style>
+
+
+-<style:style style:name="Preformatted_20_Text" style:family="paragraph" style:class="html" style:parent-style-name="Standard" style:display-name="Preformatted Text">
+
+<style:paragraph-properties loext:contextual-spacing="false" fo:margin-bottom="0in" fo:margin-top="0in"/>
+
+<style:text-properties style:font-family-generic="modern" fo:font-family="'Liberation Mono'" style:font-pitch="fixed" style:font-size-complex="10pt" style:font-name-complex="Liberation Mono" style:font-size-asian="10pt" style:font-name-asian="Liberation Mono" fo:font-size="10pt" style:font-name="Liberation Mono" style:font-pitch-complex="fixed" style:font-family-generic-complex="modern" style:font-family-complex="'Liberation Mono'" style:font-pitch-asian="fixed" style:font-family-generic-asian="modern" style:font-family-asian="'Liberation Mono'"/>
+
+</style:style>
+
+
+-<text:outline-style style:name="Outline">
+
+
+-<text:outline-level-style style:num-format="" text:level="1">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="2">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="3">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="4">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="5">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="6">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="7">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="8">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="9">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+
+-<text:outline-level-style style:num-format="" text:level="10">
+
+
+-<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+
+<style:list-level-label-alignment text:label-followed-by="listtab"/>
+
+</style:list-level-properties>
+
+</text:outline-level-style>
+
+</text:outline-style>
+
+<text:notes-configuration style:num-format="1" text:start-numbering-at="document" text:footnotes-position="page" text:start-value="0" text:note-class="footnote"/>
+
+<text:notes-configuration style:num-format="i" text:start-value="0" text:note-class="endnote"/>
+
+<text:linenumbering-configuration text:number-lines="false" style:num-format="1" text:increment="5" text:number-position="left" text:offset="0.1965in"/>
+
+</office:styles>
+
+
+-<office:automatic-styles>
+
+
+-<style:page-layout style:name="pm1">
+
+
+-<style:page-layout-properties style:writing-mode="lr-tb" fo:margin-bottom="0.7874in" fo:margin-top="0.7874in" style:num-format="1" style:footnote-max-height="0in" fo:margin-right="0.7874in" fo:margin-left="0.7874in" style:print-orientation="portrait" fo:page-height="11.6929in" fo:page-width="8.2681in">
+
+<style:footnote-sep style:color="#000000" style:rel-width="25%" style:adjustment="left" style:line-style="solid" style:distance-after-sep="0.0398in" style:distance-before-sep="0.0398in" style:width="0.0071in"/>
+
+</style:page-layout-properties>
+
+<style:header-style/>
+
+<style:footer-style/>
+
+</style:page-layout>
+
+</office:automatic-styles>
+
+
+-<office:master-styles>
+
+<style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+
+</office:master-styles>
+
+
+-<office:body>
+
+
+-<office:text text:use-soft-page-breaks="true">
+
+
+-<text:sequence-decls>
+
+<text:sequence-decl text:name="Illustration" text:display-outline-level="0"/>
+
+<text:sequence-decl text:name="Table" text:display-outline-level="0"/>
+
+<text:sequence-decl text:name="Text" text:display-outline-level="0"/>
+
+<text:sequence-decl text:name="Drawing" text:display-outline-level="0"/>
+
+<text:sequence-decl text:name="Figure" text:display-outline-level="0"/>
+
+</text:sequence-decls>
+
+<text:p text:style-name="Preformatted_20_Text">{ </text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="2"/>
+"success": true, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="2"/>
+"user": { 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"first_login": false, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"id": 431, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"user_id": 431, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"email": "user+city@user.com", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"role": "user", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"name": "user city", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"first_name": "user", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"last_name": "city", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"photo": "https://d277bwi5aij72i.cloudfront.net/system/uploads/profile/photo/432/main_d9a436b80588908957877ae7657f83edfc106cf020160915-12802-emd3fp.jpg", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"photo_2x": "https://d277bwi5aij72i.cloudfront.net/system/uploads/profile/photo/432/main_2x_d9a436b80588908957877ae7657f83edfc106cf020160915-12802-emd3fp.jpg", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"photo_3x": "https://d277bwi5aij72i.cloudfront.net/system/uploads/profile/photo/432/main_3x_d9a436b80588908957877ae7657f83edfc106cf020160915-12802-emd3fp.jpg", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"photo_thumb": "https://d277bwi5aij72i.cloudfront.net/system/uploads/profile/photo/432/thumb_d9a436b80588908957877ae7657f83edfc106cf020160915-12802-emd3fp.jpg", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"photo_thumb_2x": "https://d277bwi5aij72i.cloudfront.net/system/uploads/profile/photo/432/thumb_2x_d9a436b80588908957877ae7657f83edfc106cf020160915-12802-emd3fp.jpg", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"photo_thumb_3x": "https://d277bwi5aij72i.cloudfront.net/system/uploads/profile/photo/432/thumb_3x_d9a436b80588908957877ae7657f83edfc106cf020160915-12802-emd3fp.jpg", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"bio": "user city bio", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"location": null, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"latitude": null, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"longitude": null, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"kind": "individual", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"following": false, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"following_status": "none", 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"followers_count": 0, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:soft-page-break/>
+
+<text:s text:c="4"/>
+"followings_count": 0, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"mutuals_count": 0, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"is_facebook_connected": false, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"is_twitter_connected": false, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"icards_created_count": 3, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"channels_posted_count": 0, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"active_icards_count": 0, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"notifications_count": 0, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+"settings": { 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="6"/>
+"id": 432, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="6"/>
+"require_follower_approval": true, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="6"/>
+"show_in_public_searches": true, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="6"/>
+"allow_push_notifications": true, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="6"/>
+"everyone_can_see_watching_channels": true, 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="6"/>
+"everyone_can_see_what_im_doing": true 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="4"/>
+} 
+</text:p>
+
+
+-<text:p text:style-name="Preformatted_20_Text">
+
+<text:s text:c="2"/>
+} 
+</text:p>
+
+<text:p text:style-name="Preformatted_20_Text">} </text:p>
+
+</office:text>
+
+</office:body>
+
+</office:document>
